@@ -111,7 +111,7 @@
     "@bbc/psammead-topic-tags": "1.0.0",
     "@bbc/psammead-useful-links": "3.0.20",
     "@bbc/psammead-visually-hidden-text": "2.0.7",
-    "@bbc/web-vitals": "1.0.8",
+    "@bbc/web-vitals": "1.0.9",
     "@emotion/cache": "11.4.0",
     "@emotion/react": "11.4.0",
     "@emotion/server": "11.4.0",
