@@ -1,5 +1,4 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
 import { ServiceContextProvider } from '#contexts/ServiceContext';
 import CpsRelatedContent from '.';
 
@@ -13,13 +12,14 @@ import { MEDIA_ASSET_PAGE } from '#app/routes/utils/pageTypes';
 const pidginRelatedContentData = pidginData.relatedContent.groups[0].promos;
 const arabicRelatedContentData = arabicData.relatedContent.groups[0].promos;
 
-const getRelatedContent = platform => (service, dir, data) => (
+// eslint-disable-next-line react/prop-types
+const Component = ({ isAmp, service, dir, data }) => (
   <div dir={dir}>
     {/* The above simulates dir being added at the page level */}
     <ServiceContextProvider service={service}>
       <RequestContextProvider
         bbcOrigin="https://www.test.bbc.com"
-        isAmp={platform === 'amp'}
+        isAmp={isAmp}
         pageType={MEDIA_ASSET_PAGE} /* Can also be one of other CPS pagetypes */
         pathname="/"
         service={service}
@@ -36,36 +36,53 @@ const getRelatedContent = platform => (service, dir, data) => (
   </div>
 );
 
-const canonicalRelatedContent = getRelatedContent('canonical');
-const ampRelatedContent = getRelatedContent('amp');
+export default {
+  Component,
+  title: 'Containers/CPS Related Content',
+  parameters: { chromatic: { disable: true } },
+};
 
-storiesOf('Containers/CPS Related Content/Canonical', module)
-  .addParameters({ chromatic: { disable: true } })
-  .add('pidgin (ltr)', () =>
-    canonicalRelatedContent('pidgin', 'ltr', pidginRelatedContentData),
-  )
-  .add('arabic (rtl)', () =>
-    canonicalRelatedContent('arabic', 'rtl', arabicRelatedContentData),
-  )
-  .add('pidgin (ltr) with one item', () =>
-    canonicalRelatedContent('pidgin', 'ltr', [pidginRelatedContentData[0]]),
-  )
-  .add('arabic (rtl) with one item', () =>
-    canonicalRelatedContent('arabic', 'rtl', [arabicRelatedContentData[0]]),
-  );
+// Canonical
+export const Pidgin = () => (
+  <Component service="pidgin" dir="ltr" data={pidginRelatedContentData} />
+);
+export const Arabic = () => (
+  <Component service="arabic" dir="rtl" data={arabicRelatedContentData} />
+);
+export const PidginOneItem = () => (
+  <Component service="pidgin" dir="ltr" data={[pidginRelatedContentData[0]]} />
+);
+export const ArabicOneItem = () => (
+  <Component service="arabic" dir="rtl" data={[arabicRelatedContentData[0]]} />
+);
 
-storiesOf('Containers/CPS Related Content/AMP', module)
-  .addParameters({ chromatic: { disable: true } })
-  .addDecorator(AmpDecorator)
-  .add('pidgin (ltr) - amp', () =>
-    ampRelatedContent('pidgin', 'ltr', pidginRelatedContentData),
-  )
-  .add('arabic (rtl) - amp', () =>
-    ampRelatedContent('arabic', 'rtl', arabicRelatedContentData),
-  )
-  .add('pidgin (ltr) with one item', () =>
-    canonicalRelatedContent('pidgin', 'ltr', [pidginRelatedContentData[0]]),
-  )
-  .add('arabic (rtl) with one item', () =>
-    canonicalRelatedContent('arabic', 'rtl', [arabicRelatedContentData[0]]),
-  );
+// Amp
+export const PidginAmp = () => (
+  <Component isAmp service="pidgin" dir="ltr" data={pidginRelatedContentData} />
+);
+PidginAmp.decorators = [AmpDecorator];
+
+export const ArabicAmp = () => (
+  <Component isAmp service="arabic" dir="rtl" data={arabicRelatedContentData} />
+);
+ArabicAmp.decorators = [AmpDecorator];
+
+export const PidginOneItemAmp = () => (
+  <Component
+    isAmp
+    service="pidgin"
+    dir="ltr"
+    data={[pidginRelatedContentData[0]]}
+  />
+);
+PidginOneItemAmp.decorators = [AmpDecorator];
+
+export const ArabicOneItemAmp = () => (
+  <Component
+    isAmp
+    service="arabic"
+    dir="rtl"
+    data={[arabicRelatedContentData[0]]}
+  />
+);
+ArabicOneItemAmp.decorators = [AmpDecorator];

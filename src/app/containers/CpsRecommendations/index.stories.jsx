@@ -1,5 +1,4 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
 
 import CpsRecommendations from '.';
 import { ServiceContextProvider } from '#contexts/ServiceContext';
@@ -10,7 +9,8 @@ import mundoRecommendationsData from '#pages/StoryPage/fixtureData/recommendatio
 import arabicRecommendationsData from '#pages/StoryPage/fixtureData/recommendations.rtl.json';
 import { STORY_PAGE } from '#app/routes/utils/pageTypes';
 
-const renderRecommendations = (items, service, dir) => {
+// eslint-disable-next-line react/prop-types
+const Component = ({ items, service, dir }) => {
   const toggleState = {
     cpsRecommendations: {
       enabled: true,
@@ -47,20 +47,25 @@ const renderRecommendations = (items, service, dir) => {
   );
 };
 
-storiesOf('Containers/CPS Recommendations/LTR (mundo)', module)
-  .addParameters({ chromatic: { disable: true } })
-  .add('multiple items', () =>
-    renderRecommendations(mundoRecommendationsData, 'mundo', 'ltr'),
-  )
-  .add('single item', () =>
-    renderRecommendations([mundoRecommendationsData[0]], 'mundo', 'ltr'),
-  );
+export default {
+  Component,
+  title: 'Containers/CPS Recommendations',
+  parameters: { chromatic: { disable: true } },
+};
 
-storiesOf('Containers/CPS Recommendations/RTL (arabic)', module)
-  .addParameters({ chromatic: { disable: true } })
-  .add('multiple items', () =>
-    renderRecommendations(arabicRecommendationsData, 'arabic', 'rtl'),
-  )
-  .add('single item', () =>
-    renderRecommendations([arabicRecommendationsData[0]], 'arabic', `rtl`),
-  );
+export const MultipleItems = () => (
+  <Component items={mundoRecommendationsData} service="mundo" dir="ltr" />
+);
+export const SingleItem = () => (
+  <Component items={[mundoRecommendationsData[0]]} service="mundo" dir="ltr" />
+);
+export const MultipleItemsRTL = () => (
+  <Component items={arabicRecommendationsData} service="arabic" dir="rtl" />
+);
+export const SingleItemRTL = () => (
+  <Component
+    items={[arabicRecommendationsData[0]]}
+    service="arabic"
+    dir="rtl"
+  />
+);

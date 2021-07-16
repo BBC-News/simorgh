@@ -1,4 +1,3 @@
-import { storiesOf } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs';
 import { withServicesKnob } from '@bbc/psammead-storybook-helpers';
 import {
@@ -18,45 +17,43 @@ import {
 } from './fixtureData';
 import AmpDecorator from '../../../../.storybook/helpers/ampDecorator';
 
-storiesOf('Containers/Article/Article Figure/Canonical', module)
-  .addParameters({ chromatic: { disable: true } })
-  .addDecorator(withKnobs)
-  .addDecorator(withServicesKnob())
-  .add('with a caption', ({ service }) => FigureImageWithCaption(service))
-  .add('without a caption', () => FigureImage)
-  .add('with non-BBC copyright', () => FigureImageWithCopyright)
-  .add(
-    'with a caption and non-BBC copyright',
-    () => FigureImageWithCopyrightAndCaption,
-    { chromatic: { disable: true } },
-  )
-  .add(
-    'with a caption containing an inline link',
-    () => FigureImageWithCaptionContainingLink,
-  )
-  .add(
-    'with a caption with multiple paragraphs with a link',
-    () => FigureImageWithCaptionContainingMultipleParagraphsAndLink,
-  )
-  .add('with a lazyloaded image', () => FigureLazyLoadImage);
+export default {
+  title: 'Containers/Article/Article Figure',
+  decorators: [withKnobs, withServicesKnob()],
+  parameters: { chromatic: { disable: true } },
+};
 
-storiesOf('Containers/Article/Article Figure/AMP', module)
-  .addParameters({ chromatic: { disable: true } })
-  .addDecorator(withKnobs)
-  .addDecorator(withServicesKnob())
-  .addDecorator(AmpDecorator)
-  .add('with a caption', ({ service }) => FigureAmpImageWithCaption(service))
-  .add('without a caption', () => FigureAmpImage)
-  .add('with non-BBC copyright', () => FigureAmpImageWithCopyright)
-  .add(
-    'with a caption and non-BBC copyright',
-    () => FigureAmpImageWithCopyrightAndCaption,
-  )
-  .add(
-    'with a caption containing an inline link',
-    () => FigureAmpImageWithCaptionContainingLink,
-  )
-  .add(
-    'with a caption with multiple paragraphs with a link',
-    () => FigureAmpImageWithCaptionContainingMultipleParagraphsAndLink,
-  );
+// Canonical
+export const WithACaption = ({ service }) => FigureImageWithCaption(service);
+export const WithoutACaption = () => FigureImage;
+export const WithNonBBCCopyright = () => FigureImageWithCopyright;
+export const WithACaptionAndNonBBCCopyright = () =>
+  FigureImageWithCopyrightAndCaption;
+export const WithACaptionContainingAnInlineLink = () =>
+  FigureImageWithCaptionContainingLink;
+export const WithACaptionWithMultipleParagraphsWithALink = () =>
+  FigureImageWithCaptionContainingMultipleParagraphsAndLink;
+export const WithALazyloadedImage = () => FigureLazyLoadImage;
+
+// AMP
+export const WithACaptionAmp = ({ service }) =>
+  FigureAmpImageWithCaption(service);
+WithACaptionAmp.decorators = [AmpDecorator];
+
+export const WithoutACaptionAmp = () => FigureAmpImage;
+WithACaptionAmp.decorators = [AmpDecorator];
+
+export const WithNonBBCCopyrightAmp = () => FigureAmpImageWithCopyright;
+WithNonBBCCopyrightAmp.decorators = [AmpDecorator];
+
+export const WithACaptionAndNonBBCCopyrightAmp = () =>
+  FigureAmpImageWithCopyrightAndCaption;
+WithACaptionAndNonBBCCopyrightAmp.decorators = [AmpDecorator];
+
+export const WithACaptionContainingAnInlineLinkAmp = () =>
+  FigureAmpImageWithCaptionContainingLink;
+WithACaptionContainingAnInlineLinkAmp.decorators = [AmpDecorator];
+
+export const WithACaptionWithMultipleParagraphsWithALinkAmp = () =>
+  FigureAmpImageWithCaptionContainingMultipleParagraphsAndLink;
+WithACaptionWithMultipleParagraphsWithALinkAmp.decorators = [AmpDecorator];
