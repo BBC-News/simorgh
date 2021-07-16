@@ -26,6 +26,7 @@ export default ({ service, pageType, variant }) => {
                 cy.get('[data-e2e="most-watched-heading"]').should('exist');
               } else {
                 cy.log('Not enough records to show component');
+                cy.task('log', 'Not enough records to show component');
 
                 cy.get('[data-e2e="most-watched-heading"]').should('not.exist');
               }

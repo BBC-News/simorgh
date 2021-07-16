@@ -7231,7 +7231,7 @@ module.exports = () => ({
           },
           local: {
             paths: ['/swahili/media/video'],
-            enabled: false,
+            enabled: true,
           },
         },
         smoke: false,
