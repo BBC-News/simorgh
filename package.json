@@ -190,7 +190,7 @@
     "chrome-launcher": "0.14.0",
     "cli-table": "0.3.6",
     "compression-webpack-plugin": "6.1.1",
-    "copy-webpack-plugin": "6.4.1",
+    "copy-webpack-plugin": "9.0.1",
     "crypto": "1.0.1",
     "cypress": "7.7.0",
     "cypress-multi-reporters": "1.5.0",
