@@ -4,6 +4,7 @@ import {
   augmentWithTimestamp,
   addIdsToBlocks,
   applyBlockPositioning,
+  addIndexesToEmbeds,
 } from '../../utils/sharedDataTransformers';
 import getErrorStatusCode from '../../utils/fetchPageData/utils/getErrorStatusCode';
 
@@ -11,6 +12,7 @@ const transformJson = pipe(
   augmentWithTimestamp,
   addIdsToBlocks,
   applyBlockPositioning,
+  addIndexesToEmbeds,
 );
 
 export default async ({ path, pageType }) => {

@@ -46,7 +46,7 @@ const CpsSocialEmbedContainer = ({ blocks }) => {
 
   const skipLink = {
     ...skipLinkTranslations,
-    endTextId: `skip-%provider%-content-${index}`,
+    endTextId: `end-of-%provider%-content-${index}`,
   };
 
   const caption = provider === 'youtube' ? captionTranslations : null;

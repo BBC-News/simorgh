@@ -1,0 +1,885 @@
+{
+  "metadata": {
+    "id": "urn:bbc:ares::asset:mundo/noticias-america-latina-51518716",
+    "locators": {
+      "assetUri": "/mundo/noticias-america-latina-51518716",
+      "cpsUrn": "urn:bbc:content:assetUri:mundo/noticias-america-latina-51518716",
+      "curie": "http://www.bbc.co.uk/asset/ce1fe4b7-92d1-d242-a8f9-f0a851a983fb",
+      "assetId": "51518716"
+    },
+    "type": "STY",
+    "createdBy": "mundo-v6",
+    "language": "es",
+    "lastUpdated": 1621641398417,
+    "firstPublished": 1581819410000,
+    "lastPublished": 1581819410000,
+    "timestamp": 1581819410000,
+    "options": {
+      "isIgorSeoTagsEnabled": false,
+      "includeComments": false,
+      "allowRightHandSide": true,
+      "isFactCheck": false,
+      "allowDateStamp": true,
+      "suitableForSyndication": true,
+      "hasNewsTracker": false,
+      "allowRelatedStoriesBox": true,
+      "isKeyContent": false,
+      "allowHeadline": true,
+      "allowAdvertising": true,
+      "hasContentWarning": false,
+      "isBreakingNews": false,
+      "allowPrintingSharingLinks": true
+    },
+    "analyticsLabels": {
+      "cps_asset_type": "sty",
+      "counterName": "mundo.latin_america.story.51518716.page",
+      "cps_asset_id": "51518716"
+    },
+    "passport": {
+      "category": {
+        "categoryId": "http://www.bbc.co.uk/ontologies/applicationlogic-news/Analysis",
+        "categoryName": "Analysis"
+      },
+      "campaigns": [
+        {
+          "campaignId": "5a988e3739461b000e9dabfa",
+          "campaignName": "WS - Give me perspective"
+        },
+        {
+          "campaignId": "5a988e4739461b000e9dabfc",
+          "campaignName": "WS - Update me"
+        }
+      ],
+      "taggings": [],
+      "predicates": {
+        "about": [
+          {
+            "value": "http://www.bbc.co.uk/things/3deb0e53-87ed-4c7d-97c8-d53b5ab50359#id",
+            "thingLabel": "México",
+            "thingUri": "http://www.bbc.co.uk/things/3deb0e53-87ed-4c7d-97c8-d53b5ab50359#id",
+            "thingId": "3deb0e53-87ed-4c7d-97c8-d53b5ab50359",
+            "thingType": ["tagging:TagConcept", "core:Place", "core:Thing"],
+            "thingSameAs": ["http://sws.geonames.org/3996063/"],
+            "thingEnglishLabel": "Mexico",
+            "type": "about"
+          }
+        ]
+      }
+    },
+    "tags": {
+      "about": [
+        {
+          "thingLabel": "México",
+          "thingUri": "http://www.bbc.co.uk/things/3deb0e53-87ed-4c7d-97c8-d53b5ab50359#id",
+          "thingId": "3deb0e53-87ed-4c7d-97c8-d53b5ab50359",
+          "thingType": ["tagging:TagConcept", "core:Place", "core:Thing"],
+          "thingSameAs": ["http://sws.geonames.org/3996063/"],
+          "topicName": "México",
+          "topicId": "c340qyp6yggt",
+          "curationList": [
+            {
+              "curationId": "e9593060-e36f-4ebd-928a-a89b18d442c4",
+              "curationType": "vivo-stream"
+            }
+          ],
+          "thingEnglishLabel": "Mexico",
+          "thingLabelLanguage": "es",
+          "thingPreferredLabel": "Mexico"
+        }
+      ]
+    },
+    "version": "v1.3.13",
+    "blockTypes": ["image", "paragraph", "list", "crosshead", "social_embed"],
+    "includeComments": false,
+    "atiAnalytics": { "producerName": "MUNDO", "producerId": "62" },
+    "readTime": 7,
+    "siteUri": "/mundo",
+    "topics": [
+      {
+        "topicName": "México",
+        "topicId": "c340qyp6yggt",
+        "subjectList": [
+          {
+            "subjectId": "http://www.bbc.co.uk/things/3deb0e53-87ed-4c7d-97c8-d53b5ab50359#id",
+            "subjectType": "tag"
+          }
+        ],
+        "curationList": [
+          {
+            "curationId": "e9593060-e36f-4ebd-928a-a89b18d442c4",
+            "curationType": "vivo-stream",
+            "visualProminence": "NORMAL"
+          }
+        ],
+        "types": ["tagging:TagConcept", "core:Place", "core:Thing"],
+        "home": "http://www.bbc.co.uk/ontologies/passport/home/Mundo"
+      }
+    ]
+  },
+  "content": {
+    "blocks": [
+      {
+        "id": "110867507",
+        "subType": "body",
+        "href": "http://c.files.bbci.co.uk/113B0/production/_110867507_eqfnvajwaai7xny.jpg",
+        "path": "/cpsprodpb/113B0/production/_110867507_eqfnvajwaai7xny.jpg",
+        "height": 549,
+        "width": 976,
+        "altText": "Ingrid Escamilla",
+        "caption": "Escamilla vivía con su pareja en un departamento de la colonia Vallejo, en el norte de Ciudad de México.",
+        "copyrightHolder": "BBC",
+        "positionHint": "full-width",
+        "originCode": "cpsprodpb",
+        "type": "image"
+      },
+      {
+        "text": "Su muerte pudo ser una más, otra entre las miles de mujeres que son asesinadas cada año en México.",
+        "role": "introduction",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "Pero el feminicidio de Ingrid Escamilla el pasado domingo no pasó por alto: el crimen, presuntamente perpetrado por la pareja de la joven, generó una <bold>inusitada ola de indignación</bold> que ha salpicado incluso al gobierno de Andrés Manuel López Obrador (AMLO).",
+        "markupType": "candy_xml",
+        "type": "paragraph"
+      },
+      {
+        "numbered": false,
+        "items": [
+          {
+            "text": "<itemMeta>mundo/noticias-america-latina-51469528</itemMeta>",
+            "meta": [
+              {
+                "headlines": {
+                  "shortHeadline": "La indignación en México por el brutal asesinato de Ingrid Escamilla y la difusión de las fotos de su cadáver",
+                  "headline": "Feminicidio de Ingrid Escamilla: la indignación en México por el brutal asesinato de la joven y la difusión de las fotos de su cadáver",
+                  "overtyped": "La indignación en México por el brutal asesinato de Ingrid Escamilla y la difusión de las fotos de su cadáver"
+                },
+                "locators": {
+                  "href": "https://www.bbc.com/mundo/noticias-america-latina-51469528"
+                },
+                "summary": "Ingrid Escamilla, de 25 años, fue asesinada y su cuerpo fue mutilado en el norte de Ciudad de México. Su pareja, Francisco Robledo, quien confesó a policías el crimen, fue detenido. Pero la filtración de las fotos de la víctima y su publicación en periódicos han generado gran indignación en México.",
+                "timestamp": 1581464613000,
+                "language": "es",
+                "passport": {
+                  "category": {
+                    "categoryId": "http://www.bbc.co.uk/ontologies/applicationlogic-news/News",
+                    "categoryName": "News"
+                  },
+                  "taggings": []
+                },
+                "id": "urn:bbc:ares::asset:mundo/noticias-america-latina-51469528",
+                "type": "cps"
+              }
+            ],
+            "markupType": "candy_xml",
+            "type": "listItem"
+          },
+          {
+            "text": "<itemMeta>mundo/noticias-america-latina-50764903</itemMeta>",
+            "meta": [
+              {
+                "headlines": {
+                  "shortHeadline": "\"Cómo ayudé a atrapar al 'monstruo de Toluca'\": la mujer clave para la captura en México del hombre que confesaba sus crímenes en Facebook",
+                  "headline": "\"Monstruo de Toluca\": la mujer clave para la captura en México del hombre que confesaba sus crímenes en Facebook",
+                  "overtyped": "\"Cómo ayudé a atrapar al 'monstruo de Toluca'\": la mujer clave para la captura en México del hombre que confesaba sus crímenes en Facebook"
+                },
+                "locators": {
+                  "href": "https://www.bbc.com/mundo/noticias-america-latina-50764903"
+                },
+                "summary": "Mientras el presunto feminicida Óscar García Guzmán ocupaba titulares de prensa por varias muertes, la activista \"Frida Guerrera\" sostenía por internet un fuerte intercambio de mensajes con él que resultó fundamental para su detención.",
+                "timestamp": 1578600601000,
+                "language": "es",
+                "passport": {
+                  "category": {
+                    "categoryId": "http://www.bbc.co.uk/ontologies/applicationlogic-news/Feature",
+                    "categoryName": "Feature"
+                  },
+                  "taggings": []
+                },
+                "id": "urn:bbc:ares::asset:mundo/noticias-america-latina-50764903",
+                "type": "cps"
+              }
+            ],
+            "markupType": "candy_xml",
+            "type": "listItem"
+          }
+        ],
+        "type": "list"
+      },
+      {
+        "text": "Las redes sociales fueron la plataforma inicial para los cuestionamientos y luego, el viernes y este sábado, miles de personas salieron a las calles de la capital mexicana y otras ciudades para exigir justicia para las mujeres en un país donde solo en 2019 fueron asesinadas <bold>cerca de 4.000 de ellas. </bold>",
+        "markupType": "candy_xml",
+        "type": "paragraph"
+      },
+      {
+        "text": "Las protestas llegaron hasta el Palacio Presidencial, donde colectivos feministas pintaron letreros y lanzaron encendidos reclamos. ",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "id": "110920362",
+        "subType": "body",
+        "href": "http://c.files.bbci.co.uk/66BE/production/_110920362_gettyimages-1200836648.jpg",
+        "path": "/cpsprodpb/66BE/production/_110920362_gettyimages-1200836648.jpg",
+        "height": 549,
+        "width": 976,
+        "altText": "Protestas tras el feminicidio de Ingrid Escamilla.",
+        "caption": "Miles de mujeres se manifestaron en la capital de México y otras ciudades contra la violencia de género tras el feminicidio.",
+        "copyrightHolder": "Getty Images",
+        "positionHint": "full-width",
+        "originCode": "cpsprodpb",
+        "type": "image"
+      },
+      {
+        "text": "La conmoción por el asesinato de la joven de 25 años se disparó desde inicios de semana cuando varios tabloides mexicanos publicaron fotos en sus portadas en las que se apreciaba el cuerpo desmembrado de Escamilla, acompañado de <bold>titulares sensacionalistas. </bold>",
+        "markupType": "candy_xml",
+        "type": "paragraph"
+      },
+      {
+        "text": "Desde entonces, varias organizaciones de derechos humanos y activistas han llamado a no compartirlas y han pedido, en cambio, publicar fotos de paisajes con<italic> hashtags</italic> asociados a Escamilla para que, quienes busquen su nombre en las redes sociales, encuentren imágenes menos terribles que las de su muerte.",
+        "markupType": "candy_xml",
+        "type": "paragraph"
+      },
+      {
+        "text": "En un país donde al menos 10 mujeres son asesinadas cada día, según estimaciones oficiales, las reacciones por la muerte de la joven no han dejado de sorprender a algunos sectores.",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "¿Qué ha cambiado ahora para que miles de mexicanos se lancen otra vez a las calles para condenar a viva voz la violencia de género?",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "El hartazgo social",
+        "markupType": "plain_text",
+        "type": "crosshead"
+      },
+      {
+        "text": "Lucía Lagunes, directora de la asociación civil &quot;Comunicación e Información de la Mujer AC&quot; (CIMAC), especializada en temas de género, considera que el asesinato de Escamilla hay que entenderlo en un contexto en el que la violencia de género se ha vuelto un <bold>fenómeno cada vez más extendido</bold> en México.",
+        "markupType": "candy_xml",
+        "type": "paragraph"
+      },
+      {
+        "text": "&quot;En las reacciones ante este caso inciden varios factores acumulativos que van desde el incremento de los feminicidios en los últimos años en México a la incomodidad ante la falta de políticas públicas que ayuden de forma efectiva a combatir la violencia de género&quot;, asegura a BBC Mundo. ",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "Según datos oficiales, los asesinatos de mujeres en el país en los últimos cinco años<bold> han crecido un 137%</bold>.",
+        "markupType": "candy_xml",
+        "type": "paragraph"
+      },
+      {
+        "text": "Sin embargo, organizaciones civiles creen que el número es mayor, dado que estos crímenes no siempre se denuncian o son tipificados como feminicidios. ",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "Para que se tenga una idea, de los casi 4.000 asesinatos de mujeres reportados el año pasado, solo 976 se consideraron feminicidios, según datos del Sistema Nacional de Seguridad Pública.",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "href": "https://twitter.com/MuseoMyT/status/1227339463124299781",
+        "source": "twitter",
+        "embed": {
+          "oembed": {
+            "version": "1.0",
+            "author_name": "Memoria y Tolerancia",
+            "author_url": "https://twitter.com/MuseoMyT",
+            "provider_name": "Twitter",
+            "provider_url": "https://twitter.com",
+            "url": "https://twitter.com/MuseoMyT/status/1227339463124299781",
+            "html": "<blockquote class=\"twitter-tweet\"><p lang=\"es\" dir=\"ltr\">El cuerpo violentado de Ingrid Escamilla fue expuesto en los medios y en las redes sociales, el sexismo la revictimizó y justificó al agresor. Las víctimas de violencia machista necesitan justicia y el actuar ético de los medios y la sociedad. <a href=\"https://twitter.com/hashtag/NiUnaMenos?src=hash&amp;ref_src=twsrc%5Etfw\">#NiUnaMenos</a> <a href=\"https://twitter.com/hashtag/JusticiaParaIngrid?src=hash&amp;ref_src=twsrc%5Etfw\">#JusticiaParaIngrid</a> <a href=\"https://t.co/M8f0wDVohd\">pic.twitter.com/M8f0wDVohd</a></p>&mdash; Memoria y Tolerancia (@MuseoMyT) <a href=\"https://twitter.com/MuseoMyT/status/1227339463124299781?ref_src=twsrc%5Etfw\">February 11, 2020</a></blockquote>\n",
+            "width": 550
+          },
+          "fallback_image": {
+            "fallback_image_width": 465,
+            "fallback_image_height": 712,
+            "alt_text": "Twitter post by Memoria y Tolerancia: El cuerpo violentado de Ingrid Escamilla fue expuesto en los medios y en las redes sociales, el sexismo la revictimizó y justificó al agresor. Las víctimas de violencia machista necesitan justicia y el actuar ético de los medios y la sociedad. #NiUnaMenos #JusticiaParaIngrid "
+          }
+        },
+        "id": "1227339463124299781",
+        "type": "social_embed"
+      },
+      {
+        "text": "&quot;Creo que las protestas que tienen lugar ahora muestran el <bold>hartazgo </bold>de un sector de la sociedad ante un sistema de justicia en el que los abusos y los crímenes contra las mujeres no han sido nunca una prioridad verdadera&quot;, agrega Lagunes. ",
+        "markupType": "candy_xml",
+        "type": "paragraph"
+      },
+      {
+        "text": "Sin embargo, la experta reconoce que el tema de los feminicidios sigue siendo controversial en un país donde el machismo es imperante. ",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "La división en ese sentido también se ha mostrado en las redes sociales: el viernes, mientras se hacía tendencia etiquetas que condenaban los feminicidios en México, también se hacían populares otras que cuestionaban las marchas o promovían <bold>comentarios violentos</bold> contra las mujeres. ",
+        "markupType": "candy_xml",
+        "type": "paragraph"
+      },
+      {
+        "text": "Los contextos",
+        "markupType": "plain_text",
+        "type": "crosshead"
+      },
+      {
+        "text": "Edith López, una abogada especializada en temas feministas, le dice a BBC Mundo que para entender la indignación que ha provocado el caso es preciso comprender también los contextos en los que se dio. ",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "&quot;El asesinato de Ingrid se da un momento en el que el movimiento feminista en México no solo se ha consolidado sino que también han ocurrido acciones a nivel de gobierno que han llevado a muchas a fortalecer su lucha&quot;, indica.",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "Entre ellos menciona la intención de la Fiscalía de México de cambiar la forma en que se investiga el feminicidio. ",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "En fechas recientes, el fiscal general Alejandro Gertz anunció el deseo de su cartera de modificar la tipificación de feminicidio y solo mantener la de homicidio -que incluiría indistintamente los delitos contra hombres y mujeres- en el código penal.",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "id": "110867567",
+        "subType": "body",
+        "href": "http://c.files.bbci.co.uk/12B20/production/_110867567_8981c631-d9a0-454c-8ba1-1a3d13dca644.jpg",
+        "path": "/cpsprodpb/12B20/production/_110867567_8981c631-d9a0-454c-8ba1-1a3d13dca644.jpg",
+        "height": 549,
+        "width": 976,
+        "altText": "Alejandro Gertz y Andrés Manuel López Obrador",
+        "caption": "El fiscal general Alejandro Gertz y el presidente López Obrador hablaron sobre los feminicidios, pero no se refirieron al caso de Ingrid Escamilla.",
+        "copyrightHolder": "Presidencia de México",
+        "positionHint": "full-width",
+        "originCode": "cpsprodpb",
+        "type": "image"
+      },
+      {
+        "text": "La versión oficial indica que esto responde a que en la ley actual se deben cumplir más condiciones para judicializar un caso como feminicidio que como homicidio, lo que <bold>hace más lenta</bold><bold>la justicia</bold> para las mujeres.",
+        "markupType": "candy_xml",
+        "type": "paragraph"
+      },
+      {
+        "text": "Sin embargo, López considera que la tipificación de este crimen es una de las bases para seguir visibilizando lo que ocurre e incluirlo en la forma de homicidio reduciría la posibilidad de implementar políticas expresamente dirigidas a combatirlo. ",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "Los medios en la mira",
+        "markupType": "plain_text",
+        "type": "crosshead"
+      },
+      {
+        "text": "Según Lagunes, otro elemento que generó controversia no solo estuvo asociado a la brutalidad del crimen (el presunto asesino intentó desollar el cuerpo de su víctima), sino también a la forma en la que algunos medios locales presentaron lo sucedido. ",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "&quot;Parte de la indignación se debe al <bold>tratamiento mediático</bold> que se dio al caso: se publicaron imágenes bastante violentas, morbosas, de una crueldad muy grande del cuerpo de Ingrid, lo que no solo lleva a cuestionar a los periódicos que lo hicieron, sino a las autoridades que se las facilitaron&quot;, opina.",
+        "markupType": "candy_xml",
+        "type": "paragraph"
+      },
+      {
+        "href": "https://twitter.com/jeremy_renaux/status/1227250740294553600",
+        "source": "twitter",
+        "embed": {
+          "oembed": {
+            "version": "1.0",
+            "author_name": "Jérémy Renaux",
+            "author_url": "https://twitter.com/jeremy_renaux",
+            "provider_name": "Twitter",
+            "provider_url": "https://twitter.com",
+            "url": "https://twitter.com/jeremy_renaux/status/1227250740294553600",
+            "html": "<blockquote class=\"twitter-tweet\"><p lang=\"es\" dir=\"ltr\">¿Legisladores, para cuando la prohibición de publicar imágenes de crímenes en periódicos? Estos periódicos deberían de desaparecer. Esto no es libertad de expresión, esto es revictimización, amarillismo y normalización de la violencia.   <a href=\"https://twitter.com/hashtag/Ingrid?src=hash&amp;ref_src=twsrc%5Etfw\">#Ingrid</a> <a href=\"https://twitter.com/hashtag/IngridEscamilla?src=hash&amp;ref_src=twsrc%5Etfw\">#IngridEscamilla</a> <a href=\"https://twitter.com/hashtag/NiUnaMas?src=hash&amp;ref_src=twsrc%5Etfw\">#NiUnaMas</a> <a href=\"https://t.co/EJ9bVCX9qA\">pic.twitter.com/EJ9bVCX9qA</a></p>&mdash; Jérémy Renaux (@jeremy_renaux) <a href=\"https://twitter.com/jeremy_renaux/status/1227250740294553600?ref_src=twsrc%5Etfw\">February 11, 2020</a></blockquote>\n",
+            "width": 550
+          },
+          "fallback_image": {
+            "fallback_image_width": 465,
+            "fallback_image_height": 712,
+            "alt_text": "Twitter post by Jérémy Renaux: ¿Legisladores, para cuando la prohibición de publicar imágenes de crímenes en periódicos? Estos periódicos deberían de desaparecer. Esto no es libertad de expresión, esto es revictimización, amarillismo y normalización de la violencia.   #Ingrid #IngridEscamilla #NiUnaMas "
+          }
+        },
+        "id": "1227250740294553600",
+        "type": "social_embed"
+      },
+      {
+        "text": "El tabloide Pásala colocó en su portada el lunes una foto <bold>explícita y a gran tamaño </bold>del cuerpo de la víctima junto con un titular en referencia al cercano día de San Valentín: &quot;La culpa la tuvo Cupido&quot;.",
+        "markupType": "candy_xml",
+        "type": "paragraph"
+      },
+      {
+        "text": "Mientras el diario La Prensa titulaba &quot;Descarnada&quot; junto a tres fotos que ocupaban toda la portada: una del detenido, otra del cuerpo de la víctima y una más del edificio de departamentos donde vivían.",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "En este sentido López recuerda que la policía y la Fiscalía mexicana han recibido en varias ocasiones recomendaciones de varios organismos de derechos humanos por filtrar fotos o información de crímenes o delitos a tabloides sensacionalistas y otros medios, lo que, en su criterio, puede afectar las investigaciones.",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "&quot;Este caso puso en evidencia otra vez la mala actuación de la policía al filtrar estos contenidos que no solo revictimizan a la víctima y alientan el morbo y el odio sino que también pueden afectar el debido proceso y contribuir finalmente a la impunidad del agresor&quot;, opina. ",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "La Fiscalía General de Justicia de la capital anunció que al menos seis personas, entre policías y fiscales, estaban siendo investigadas por la filtración de las imágenes, que también comenzaron a circular ampliamente por las redes sociales. ",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "Políticas deficientes",
+        "markupType": "plain_text",
+        "type": "crosshead"
+      },
+      {
+        "text": "De acuerdo con López otro de los elementos a tener en cuenta es que el caso dejó en evidencia las debilidades de las políticas existentes en México para proteger a las mujeres cuando son víctimas de la violencia de género. ",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "&quot;Este caso muestra que las políticas que existen de protección para la mujer no sirven para nada: <bold>Ingrid había denunciado antes de su asesinato que era víctima de una amenaza y no pasó nada</bold>. Las autoridades no hicieron una valoración de riesgo. Tuvo que volver a la casa donde la esperaba su asesino&quot;, indica.",
+        "markupType": "candy_xml",
+        "type": "paragraph"
+      },
+      {
+        "text": "&quot;Este caso demuestra que las órdenes de protección hacia la mujer son más que un papel y que las autoridades no toman acciones concretas cuando se presenta una denuncia. Entonces, ante esta situación, ¿qué puede hacer una mujer para salvar su vida cuando es víctima de una amenaza?&quot;, agrega.",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "id": "110867509",
+        "subType": "body",
+        "href": "http://c.files.bbci.co.uk/161D0/production/_110867509_eqgfkgmwoaawzvg.jpg",
+        "path": "/cpsprodpb/161D0/production/_110867509_eqgfkgmwoaawzvg.jpg",
+        "height": 549,
+        "width": 976,
+        "altText": "Ingrid Escamilla",
+        "caption": "Ingrid Escamilla, de 25 años, fue asesinada presuntamente por su pareja en Ciudad de México.",
+        "copyrightHolder": "BBC",
+        "positionHint": "full-width",
+        "originCode": "cpsprodpb",
+        "type": "image"
+      },
+      {
+        "text": "Las analistas consultadas por BBC Mundo coinciden en que otro de los factores que ha generado mayor controversia es lo que consideran una <bold>&quot;respuesta débil&quot;</bold> de la presidencia de México ante el caso.",
+        "markupType": "candy_xml",
+        "type": "paragraph"
+      },
+      {
+        "text": "En este sentido, unas declaraciones de AMLO el pasado lunes fueron polvorín para los cuestionamientos en las redes sociales. ",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "Ese día, el mismo que se supo la noticia sobre la muerte de Escamilla, el mandatario, al ser cuestionado sobre los planes de la Fiscalía para cambiar la figura del feminicidio, aseveró que el tema de los asesinatos de mujeres &quot;se había manipulado&quot; por medios críticos de su gobierno.",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "&quot;Se ha manipulado mucho sobre este asunto en los medios, no en todos desde luego, los que no nos ven con buenos ojos aprovechan cualquier circunstancia para generar campañas de difamación, así de claro, de distorsión, información falsa&quot;, dijo durante su conferencia de prensa matutina.",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "Después, el mandatario presentó un &quot;decálogo contra la violencia&quot;, aunque sus críticos opinaron que no diferenciaba en los casos de violencia hacia la mujer. ",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "href": "https://twitter.com/Claudiashein/status/1227228401406300161",
+        "source": "twitter",
+        "embed": {
+          "oembed": {
+            "version": "1.0",
+            "author_name": "Claudia Sheinbaum",
+            "author_url": "https://twitter.com/Claudiashein",
+            "provider_name": "Twitter",
+            "provider_url": "https://twitter.com",
+            "url": "https://twitter.com/Claudiashein/status/1227228401406300161",
+            "html": "<blockquote class=\"twitter-tweet\"><p lang=\"es\" dir=\"ltr\">El feminicidio es un crimen absolutamente condenable. Cuando el odio llega a los límites como el de Ingrid Escamilla es indignante. La SSC detuvo al presunto responsable y la Fiscal ha declarado que exigirá la máxima condena.</p>&mdash; Claudia Sheinbaum (@Claudiashein) <a href=\"https://twitter.com/Claudiashein/status/1227228401406300161?ref_src=twsrc%5Etfw\">February 11, 2020</a></blockquote>\n",
+            "width": 550
+          },
+          "fallback_image": {
+            "fallback_image_width": 465,
+            "fallback_image_height": 279,
+            "alt_text": "Twitter post by Claudia Sheinbaum: El feminicidio es un crimen absolutamente condenable. Cuando el odio llega a los límites como el de Ingrid Escamilla es indignante. La SSC detuvo al presunto responsable y la Fiscal ha declarado que exigirá la máxima condena."
+          }
+        },
+        "id": "1227228401406300161",
+        "type": "social_embed"
+      },
+      {
+        "text": "No obstante, la alcaldesa de Ciudad de México, Claudia Sheinbaum, condenó en Twitter el feminicidio de la joven.",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "&quot;El feminicidio es un <bold>crimen absolutamente condenable</bold>. Cuando el odio llega a los límites como el de Ingrid Escamilla es indignante&quot;, escribió. ",
+        "markupType": "candy_xml",
+        "type": "paragraph"
+      },
+      {
+        "text": "Pero, según López, la falta de un pronunciamiento a nivel de gobierno nacional no solo ha llevado a que se haya perdido una posición de condena moral de lo sucedido, sino también una oportunidad de ir más allá de los posicionamientos y plantear cómo planean las autoridades combatir la violencia por cuestiones de género.",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "&quot;La tibieza con que ha respondido el gobierno ante este crimen atroz ha llevado a muchos a indignarse no solo ante las autoridades, sino ante un sistema que demuestra una vez más poco interés en detener la violencia contra la mujer&quot;, opina. ",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "text": "Lagunes, por su parte, señala que las protestas contra el gobierno y el cuestionamiento a sus autoridades muestran que mucha gente ha comenzado a entender que el aumento de la violencia contra la mujer es también una <bold>responsabilidad del Estado.</bold>",
+        "markupType": "candy_xml",
+        "type": "paragraph"
+      },
+      {
+        "text": "&quot;Uno de los elementos que hace este caso diferente es que para muchos comienza a ser un hecho que al final el Estado es también responsable de estos hechos, hasta tanto no asuma políticas y tome medidas que lleven a evitar que este tipo de crímenes se sigan repitiendo&quot;, considera. ",
+        "markupType": "plain_text",
+        "type": "paragraph"
+      },
+      {
+        "id": "105200030",
+        "subType": "body",
+        "href": "http://c.files.bbci.co.uk/0BB8/production/_105200030_line976.jpg",
+        "path": "/cpsprodpb/0BB8/production/_105200030_line976.jpg",
+        "height": 2,
+        "width": 464,
+        "altText": "Línea",
+        "copyrightHolder": "BBC",
+        "positionHint": "body-width",
+        "originCode": "cpsprodpb",
+        "type": "image"
+      },
+      {
+        "text": "<italic>Ahora puedes recibir notificaciones de BBC News Mundo. Descarga nuestra app y actívalas para no perderte nuestro mejor contenido.</italic>",
+        "markupType": "candy_xml",
+        "type": "paragraph"
+      },
+      {
+        "numbered": false,
+        "items": [
+          {
+            "text": "<bold>¿Ya conoces nuestro canal de YouTube? </bold><link><caption>¡Suscríbete!</caption><url href=\"http://vid.io/xqOx\" platform=\"highweb\"/></link>",
+            "markupType": "candy_xml",
+            "type": "listItem"
+          }
+        ],
+        "type": "list"
+      },
+      {
+        "href": "https://www.youtube.com/watch?v=ENrp-Q1SOhM",
+        "source": "youtube",
+        "embed": {
+          "oembed": {
+            "version": "1.0",
+            "title": "Churchill, Roosevelt y Stalin en Yalta: qué pasó antes y después de esta famosa foto | BBC Mundo",
+            "author_name": "BBC News Mundo",
+            "author_url": "https://www.youtube.com/user/BBCMundo",
+            "provider_name": "YouTube",
+            "provider_url": "https://www.youtube.com/",
+            "thumbnail_url": "https://i.ytimg.com/vi/ENrp-Q1SOhM/hqdefault.jpg",
+            "thumbnail_width": 480,
+            "thumbnail_height": 360,
+            "html": "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/ENrp-Q1SOhM?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+            "width": 480,
+            "height": 270
+          },
+          "fallback_image": {
+            "fallback_image_width": 500,
+            "fallback_image_height": 269,
+            "alt_text": "YouTube post by BBC News Mundo: Churchill, Roosevelt y Stalin en Yalta: qué pasó antes y después de esta famosa foto | BBC Mundo"
+          }
+        },
+        "id": "ENrp-Q1SOhM",
+        "type": "social_embed"
+      },
+      {
+        "href": "https://www.youtube.com/watch?v=ENrp-Q1SOhM",
+        "source": "youtube",
+        "embed": {
+          "oembed": {
+            "version": "1.0",
+            "title": "Churchill, Roosevelt y Stalin en Yalta: qué pasó antes y después de esta famosa foto | BBC Mundo",
+            "author_name": "BBC News Mundo",
+            "author_url": "https://www.youtube.com/user/BBCMundo",
+            "provider_name": "YouTube",
+            "provider_url": "https://www.youtube.com/",
+            "thumbnail_url": "https://i.ytimg.com/vi/ENrp-Q1SOhM/hqdefault.jpg",
+            "thumbnail_width": 480,
+            "thumbnail_height": 360,
+            "html": "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/ENrp-Q1SOhM?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+            "width": 480,
+            "height": 270
+          },
+          "fallback_image": {
+            "fallback_image_width": 500,
+            "fallback_image_height": 269,
+            "alt_text": "YouTube post by BBC News Mundo: Churchill, Roosevelt y Stalin en Yalta: qué pasó antes y después de esta famosa foto | BBC Mundo"
+          }
+        },
+        "id": "ENrp-Q1SOhM",
+        "type": "social_embed"
+      }
+    ]
+  },
+  "promo": {
+    "headlines": {
+      "shortHeadline": "Por qué el feminicidio de Ingrid Escamilla ha provocado protestas en México",
+      "headline": "Feminicidio de Ingrid Escamilla: por qué el asesinato de la joven ha provocado protestas en México"
+    },
+    "locators": {
+      "assetUri": "/mundo/noticias-america-latina-51518716",
+      "cpsUrn": "urn:bbc:content:assetUri:mundo/noticias-america-latina-51518716",
+      "curie": "http://www.bbc.co.uk/asset/ce1fe4b7-92d1-d242-a8f9-f0a851a983fb",
+      "assetId": "51518716"
+    },
+    "summary": "La muerte de la joven, presuntamente perpetrada por su pareja en el norte de la capital, generó una inusitada ola de indignación que ha salpicado incluso al actual gobierno de Andrés Manuel López Obrador.",
+    "timestamp": 1581819410000,
+    "language": "es",
+    "byline": {
+      "name": "Lioman Lima - @liomanlima ",
+      "title": "BBC News Mundo",
+      "persons": [
+        { "name": "Lioman Lima - @liomanlima", "function": "BBC News Mundo" }
+      ]
+    },
+    "passport": {
+      "category": {
+        "categoryId": "http://www.bbc.co.uk/ontologies/applicationlogic-news/Analysis",
+        "categoryName": "Analysis"
+      },
+      "campaigns": [
+        {
+          "campaignId": "5a988e3739461b000e9dabfa",
+          "campaignName": "WS - Give me perspective"
+        },
+        {
+          "campaignId": "5a988e4739461b000e9dabfc",
+          "campaignName": "WS - Update me"
+        }
+      ],
+      "taggings": [],
+      "predicates": {
+        "about": [
+          {
+            "value": "http://www.bbc.co.uk/things/3deb0e53-87ed-4c7d-97c8-d53b5ab50359#id",
+            "thingLabel": "México",
+            "thingUri": "http://www.bbc.co.uk/things/3deb0e53-87ed-4c7d-97c8-d53b5ab50359#id",
+            "thingId": "3deb0e53-87ed-4c7d-97c8-d53b5ab50359",
+            "thingType": ["tagging:TagConcept", "core:Place", "core:Thing"],
+            "thingSameAs": ["http://sws.geonames.org/3996063/"],
+            "thingEnglishLabel": "Mexico",
+            "type": "about"
+          }
+        ]
+      }
+    },
+    "indexImage": {
+      "id": "110920359",
+      "subType": "index",
+      "href": "http://c.files.bbci.co.uk/17446/production/_110920359_gettyimages-1200836648.jpg",
+      "path": "/cpsprodpb/17446/production/_110920359_gettyimages-1200836648.jpg",
+      "height": 576,
+      "width": 1024,
+      "altText": "Protestas tras el feminicidio de Ingrid Escamilla.",
+      "caption": "Miles de mujeres se manifestaron en la capital de México y otras ciudades contra la violencia de género tras el feminicidio.",
+      "copyrightHolder": "Getty Images",
+      "originCode": "cpsprodpb",
+      "type": "image"
+    },
+    "id": "urn:bbc:ares::asset:mundo/noticias-america-latina-51518716",
+    "type": "cps"
+  },
+  "relatedContent": {
+    "section": {
+      "subType": "index",
+      "name": "América Latina",
+      "uri": "/mundo/america_latina",
+      "type": "simple"
+    },
+    "site": {
+      "subType": "site",
+      "name": "BBC Mundo",
+      "uri": "/mundo",
+      "type": "simple"
+    },
+    "groups": [
+      {
+        "type": "see-alsos",
+        "promos": [
+          {
+            "headlines": {
+              "shortHeadline": "\"Cómo ayudé a atrapar al 'monstruo de Toluca'\": la mujer clave para la captura en México del hombre que confesaba sus crímenes en Facebook",
+              "headline": "\"Monstruo de Toluca\": la mujer clave para la captura en México del hombre que confesaba sus crímenes en Facebook"
+            },
+            "locators": {
+              "assetUri": "/mundo/noticias-america-latina-50764903",
+              "cpsUrn": "urn:bbc:content:assetUri:/mundo/noticias-america-latina-50764903"
+            },
+            "summary": "Mientras el presunto feminicida Óscar García Guzmán ocupaba titulares de prensa por varias muertes, la activista \"Frida Guerrera\" sostenía por internet un fuerte intercambio de mensajes con él que resultó fundamental para su detención.",
+            "timestamp": 1578600601000,
+            "language": "es",
+            "cpsType": "STY",
+            "indexImage": {
+              "id": "110122040",
+              "subType": "index",
+              "href": "http://c.files.bbci.co.uk/0FB6/production/_110122040_eldmfcmxsaas5qw.jpg",
+              "path": "/cpsprodpb/0FB6/production/_110122040_eldmfcmxsaas5qw.jpg",
+              "height": 549,
+              "width": 976,
+              "altText": "Foto de Oscar García Guzmán",
+              "caption": "Oscar García Guzmán fue detenido el 6 de diciembre en Ciudad de México, luego de casi un mes en la fuga.",
+              "copyrightHolder": "FGJ",
+              "type": "image"
+            },
+            "id": "urn:bbc:ares::asset:mundo/noticias-america-latina-50764903",
+            "type": "cps"
+          },
+          {
+            "headlines": {
+              "shortHeadline": "Qué es el suicidio feminicida y por qué El Salvador es el único país de América Latina que lo condena",
+              "headline": "Violencia contra la mujer: qué es el suicidio feminicida y por qué El Salvador es el único país de América Latina que lo condena"
+            },
+            "locators": {
+              "assetUri": "/mundo/noticias-america-latina-45883882",
+              "cpsUrn": "urn:bbc:content:assetUri:/mundo/noticias-america-latina-45883882"
+            },
+            "summary": "Naciones Unidas considera que es probable que El Salvador sea el único país del mundo en tipificar el suicidio feminicida. Las autoridades locales aseguran que así es. ¿Qué significa y qué efecto ha tenido en la sociedad salvadoreña?",
+            "timestamp": 1542719616000,
+            "language": "es",
+            "cpsType": "STY",
+            "indexImage": {
+              "id": "103908521",
+              "subType": "index",
+              "href": "http://c.files.bbci.co.uk/3124/production/_103908521_gettyimages-1020666698.jpg",
+              "path": "/cpsprodpb/3124/production/_103908521_gettyimages-1020666698.jpg",
+              "height": 549,
+              "width": 976,
+              "altText": "Una mujer se sujeta la cabeza y tiene cara de preocupación",
+              "copyrightHolder": "Getty Images",
+              "type": "image"
+            },
+            "id": "urn:bbc:ares::asset:mundo/noticias-america-latina-45883882",
+            "type": "cps"
+          },
+          {
+            "headlines": {
+              "shortHeadline": "Las mujeres asesinadas cada día en todo el mundo (y dónde son más vulnerables)",
+              "headline": "Las mujeres asesinadas cada día en todo el mundo (y dónde son más vulnerables)"
+            },
+            "locators": {
+              "assetUri": "/mundo/noticias-internacional-46342533",
+              "cpsUrn": "urn:bbc:content:assetUri:/mundo/noticias-internacional-46342533"
+            },
+            "summary": "Según Naciones Unidas, unas 137 mujeres son asesinadas por sus parejas o un miembro de su familia cada día en el mundo. Estas son algunas de esas historias que ocurren a diario.",
+            "timestamp": 1543239764000,
+            "language": "es",
+            "cpsType": "STY",
+            "indexImage": {
+              "id": "104488458",
+              "subType": "index",
+              "href": "http://c.files.bbci.co.uk/14DF0/production/_104488458_promo_976.png",
+              "path": "/cpsprodpb/14DF0/production/_104488458_promo_976.png",
+              "height": 549,
+              "width": 976,
+              "altText": "Un promedio de 137 mujeres son asesinadas a diario.",
+              "copyrightHolder": "BBC",
+              "type": "image"
+            },
+            "id": "urn:bbc:ares::asset:mundo/noticias-internacional-46342533",
+            "type": "cps"
+          },
+          {
+            "headlines": {
+              "shortHeadline": "Los 8 pasos que se repiten en casi todos los casos de asesinato por violencia doméstica",
+              "headline": "Los 8 pasos que se repiten en casi todos los casos de asesinato por violencia doméstica"
+            },
+            "locators": {
+              "assetUri": "/mundo/noticias-49496429",
+              "cpsUrn": "urn:bbc:content:assetUri:/mundo/noticias-49496429"
+            },
+            "summary": "Una investigación sugiere que los hombres que matan a sus parejas siguen un patrón que podría ser rastreado por la policía.",
+            "timestamp": 1566998309000,
+            "language": "es",
+            "cpsType": "STY",
+            "indexImage": {
+              "id": "108511095",
+              "subType": "index",
+              "href": "http://c.files.bbci.co.uk/E683/production/_108511095_domesticviolence.jpg",
+              "path": "/cpsprodpb/E683/production/_108511095_domesticviolence.jpg",
+              "height": 549,
+              "width": 976,
+              "altText": "violencia domestica",
+              "caption": "En 2017, alrededor de 30 mil personas en todo el mundo fueron asesinadas por sus parejas anteriores o actuales.",
+              "copyrightHolder": "Getty Images",
+              "type": "image"
+            },
+            "id": "urn:bbc:ares::asset:mundo/noticias-49496429",
+            "type": "cps"
+          },
+          {
+            "headlines": {
+              "shortHeadline": "¿Por qué Ecatepec es el municipio de México más peligroso para ser mujer?",
+              "headline": "\"Monstruo de Ecatepec\": ¿por qué este municipio de México es el más peligroso para ser mujer?"
+            },
+            "locators": {
+              "assetUri": "/mundo/noticias-america-latina-45821520",
+              "cpsUrn": "urn:bbc:content:assetUri:/mundo/noticias-america-latina-45821520"
+            },
+            "summary": "El municipio de Ecatepec tiene el mayor número de feminicidios en México. La detención de una pareja que supuestamente vendían los restos de sus víctimas ha causado conmoción en el país. Sin embargo, pocos creen que esto mejorará el problema de la inseguridad en el lugar.",
+            "timestamp": 1539257142000,
+            "language": "es",
+            "cpsType": "STY",
+            "indexImage": {
+              "id": "103829653",
+              "subType": "index",
+              "href": "http://c.files.bbci.co.uk/8B6C/production/_103829653_img_8590.jpg",
+              "path": "/cpsprodpb/8B6C/production/_103829653_img_8590.jpg",
+              "height": 549,
+              "width": 976,
+              "altText": "memorial improvisado",
+              "caption": "Mujeres y niñas rezan en el memorial improvisado. “Podría haber sido yo, o cualquiera, dice una de ellas”.",
+              "copyrightHolder": "BBC",
+              "type": "image"
+            },
+            "id": "urn:bbc:ares::asset:mundo/noticias-america-latina-45821520",
+            "type": "cps"
+          },
+          {
+            "headlines": {
+              "shortHeadline": "Las Tesis sobre \"Un violador en tu camino\": \"Se nos escapó de las manos y lo hermoso es que fue apropiado por otras\"",
+              "headline": "Las Tesis sobre \"Un violador en tu camino\": \"Se nos escapó de las manos y lo hermoso es que fue apropiado por otras\""
+            },
+            "locators": {
+              "assetUri": "/mundo/noticias-america-latina-50690475",
+              "cpsUrn": "urn:bbc:content:assetUri:/mundo/noticias-america-latina-50690475"
+            },
+            "summary": "La canción que denuncia: \"El violador eres tú\", fue creada como parte de una obra de teatro que jamás se llegó a estrenar. En tan solo unos días, la letra, su coreografía e iconografía se convirtieron en un fenómeno mundial y multitudinario. En BBC Mundo hablamos con sus creadoras, el colectivo Las Tesis.",
+            "timestamp": 1575653646000,
+            "language": "es",
+            "cpsType": "STY",
+            "indexImage": {
+              "id": "109954746",
+              "subType": "index",
+              "href": "http://c.files.bbci.co.uk/FCE9/production/_109954746_gettyimages-1185528004.jpg",
+              "path": "/cpsprodpb/FCE9/production/_109954746_gettyimages-1185528004.jpg",
+              "height": 549,
+              "width": 976,
+              "altText": "En Ciudad de México, 29 de noviembre",
+              "copyrightHolder": "CLAUDIO CRUZ/Getty Images",
+              "type": "image"
+            },
+            "id": "urn:bbc:ares::asset:mundo/noticias-america-latina-50690475",
+            "type": "cps"
+          }
+        ]
+      }
+    ]
+  }
+}

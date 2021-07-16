@@ -1,0 +1,328 @@
+{
+  "metadata": {
+    "id": "urn:bbc:ares::article:c20myn5q195o",
+    "locators": {
+      "optimoUrn": "urn:bbc:optimo:asset:c20myn5q195o",
+      "canonicalUrl": "https://www.bbc.com/mundo/articles/c20myn5q195o"
+    },
+    "type": "article",
+    "createdBy": "Mundo",
+    "language": "es",
+    "lastUpdated": 1624964865427,
+    "firstPublished": 1624964861434,
+    "lastPublished": 1624964861434,
+    "timestamp": 1624964861434,
+    "options": {},
+    "analyticsLabels": {},
+    "passport": {
+      "language": "es",
+      "home": "http://www.bbc.co.uk/ontologies/passport/home/Mundo",
+      "locator": "urn:bbc:optimo:asset:c20myn5q195o",
+      "availability": "AVAILABLE",
+      "taggings": [
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/editorialSensitivity",
+          "value": "http://www.bbc.co.uk/things/c6979033-cb72-4d07-9897-adc348a4332e#id"
+        }
+      ],
+      "schemaVersion": "1.3.0",
+      "publishedState": "PUBLISHED"
+    },
+    "tags": {},
+    "version": "v1.3.13",
+    "blockTypes": [
+      "headline",
+      "text",
+      "paragraph",
+      "fragment",
+      "subheadline",
+      "social",
+      "renditions",
+      "aresOEmbed"
+    ],
+    "suitableForSyndication": true,
+    "readTime": 1
+  },
+  "content": {
+    "model": {
+      "blocks": [
+        {
+          "type": "headline",
+          "model": {
+            "blocks": [
+              {
+                "type": "text",
+                "model": {
+                  "blocks": [
+                    {
+                      "type": "paragraph",
+                      "model": {
+                        "text": "Mundo Twitter Test ",
+                        "blocks": [
+                          {
+                            "type": "fragment",
+                            "model": {
+                              "text": "Mundo Twitter Test ",
+                              "attributes": []
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "subheadline",
+          "model": {
+            "blocks": [
+              {
+                "type": "text",
+                "model": {
+                  "blocks": [
+                    {
+                      "type": "paragraph",
+                      "model": {
+                        "text": "Hola Mundo!",
+                        "blocks": [
+                          {
+                            "type": "fragment",
+                            "model": { "text": "Hola Mundo!", "attributes": [] }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "social",
+          "model": {
+            "source": "https://twitter.com/bbcnewspidgin/status/1401130492313866243?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1401130492313866243%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fd-3388070347389922232.ampproject.net%2F2106120107000%2Fframe.html",
+            "blocks": [
+              {
+                "type": "renditions",
+                "model": {
+                  "locator": "urn:bbc:optimo:social:619df6aa-8abf-4e4d-baf1-189b0106f2fa",
+                  "blocks": [
+                    {
+                      "type": "aresOEmbed",
+                      "model": {
+                        "oembed": {
+                          "version": "1.0",
+                          "author_name": "BBC Pidgin",
+                          "author_url": "https://twitter.com/bbcnewspidgin",
+                          "provider_name": "Twitter",
+                          "provider_url": "https://twitter.com",
+                          "url": "https://twitter.com/bbcnewspidgin/status/1401130492313866243",
+                          "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Logan Paul vs Mayweather: Date, time and how to watch di fight.<br><br>Wen dis Youtuber &amp; Former professional boxer jam dis weekend, wetin you think say go happun?<br><br>Read more here: <a href=\"https://t.co/mLHxByELjA\">https://t.co/mLHxByELjA</a> <a href=\"https://t.co/lp7GmXfGTF\">pic.twitter.com/lp7GmXfGTF</a></p>&mdash; BBC Pidgin (@bbcnewspidgin) <a href=\"https://twitter.com/bbcnewspidgin/status/1401130492313866243?ref_src=twsrc%5Etfw\">June 5, 2021</a></blockquote>\n",
+                          "width": 550
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "model": {
+            "blocks": [
+              {
+                "type": "paragraph",
+                "model": {
+                  "text": "Comes estas? ",
+                  "blocks": [
+                    {
+                      "type": "fragment",
+                      "model": { "text": "Comes estas? ", "attributes": [] }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "social",
+          "model": {
+            "source": "https://twitter.com/EgbuchulamPrin2/status/1401151603386851328?s=20",
+            "blocks": [
+              {
+                "type": "renditions",
+                "model": {
+                  "locator": "urn:bbc:optimo:social:93510861-c60f-47e9-897d-da5d4be64d16",
+                  "blocks": [
+                    {
+                      "type": "aresOEmbed",
+                      "model": {
+                        "oembed": {
+                          "version": "1.0",
+                          "author_name": "Egbuchulam Princess Chidimma",
+                          "author_url": "https://twitter.com/EgbuchulamPrin2",
+                          "provider_name": "Twitter",
+                          "provider_url": "https://twitter.com",
+                          "url": "https://twitter.com/EgbuchulamPrin2/status/1401151603386851328",
+                          "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Wetin una still dey do here??</p>&mdash; Egbuchulam Princess Chidimma (@EgbuchulamPrin2) <a href=\"https://twitter.com/EgbuchulamPrin2/status/1401151603386851328?ref_src=twsrc%5Etfw\">June 5, 2021</a></blockquote>\n",
+                          "width": 550
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "model": {
+            "blocks": [
+              {
+                "type": "paragraph",
+                "model": {
+                  "text": "Noticias del mundo ",
+                  "blocks": [
+                    {
+                      "type": "fragment",
+                      "model": {
+                        "text": "Noticias del mundo ",
+                        "attributes": []
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "social",
+          "model": {
+            "source": "https://twitter.com/PunHubOnline/status/1382720301444833284?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1382720301444833284%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fd-3388070347389922232.ampproject.net%2F2106120107000%2Fframe.html",
+            "blocks": [
+              {
+                "type": "renditions",
+                "model": {
+                  "locator": "urn:bbc:optimo:social:e4f0c406-8f3e-421d-87a9-0e3c7f77604f",
+                  "blocks": [
+                    {
+                      "type": "aresOEmbed",
+                      "model": {
+                        "oembed": {
+                          "version": "1.0",
+                          "author_name": "PunHub",
+                          "author_url": "https://twitter.com/PunHubOnline",
+                          "provider_name": "Twitter",
+                          "provider_url": "https://twitter.com",
+                          "url": "https://twitter.com/PunHubOnline/status/1382720301444833284",
+                          "html": "<blockquote class=\"twitter-tweet\"><p lang=\"und\" dir=\"ltr\"><a href=\"https://t.co/2zidvoJ58f\">pic.twitter.com/2zidvoJ58f</a></p>&mdash; PunHub (@PunHubOnline) <a href=\"https://twitter.com/PunHubOnline/status/1382720301444833284?ref_src=twsrc%5Etfw\">April 15, 2021</a></blockquote>\n",
+                          "width": 550
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "promo": {
+    "locators": {
+      "optimoUrn": "urn:bbc:optimo:asset:c20myn5q195o",
+      "canonicalUrl": "https://www.bbc.com/mundo/articles/c20myn5q195o"
+    },
+    "timestamp": 1624964861434,
+    "suitableForSyndication": true,
+    "language": "es",
+    "headlines": {
+      "seoHeadline": "Mundo Twitter Test ",
+      "promoHeadline": {
+        "blocks": [
+          {
+            "type": "text",
+            "model": {
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "model": {
+                    "text": "Mundo Twitter Test ",
+                    "blocks": [
+                      {
+                        "type": "fragment",
+                        "model": {
+                          "text": "Mundo Twitter Test ",
+                          "attributes": []
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "images": {},
+    "summary": {
+      "blocks": [
+        {
+          "type": "text",
+          "model": {
+            "blocks": [
+              {
+                "type": "paragraph",
+                "model": {
+                  "text": "Twitter test",
+                  "blocks": [
+                    {
+                      "type": "fragment",
+                      "model": { "text": "Twitter test", "attributes": [] }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "passport": {
+      "language": "es",
+      "home": "http://www.bbc.co.uk/ontologies/passport/home/Mundo",
+      "locator": "urn:bbc:optimo:asset:c20myn5q195o",
+      "availability": "AVAILABLE",
+      "taggings": [
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/editorialSensitivity",
+          "value": "http://www.bbc.co.uk/things/c6979033-cb72-4d07-9897-adc348a4332e#id"
+        }
+      ],
+      "schemaVersion": "1.3.0",
+      "publishedState": "PUBLISHED"
+    },
+    "id": "urn:bbc:ares::article:c20myn5q195o",
+    "type": "optimo"
+  },
+  "relatedContent": {
+    "site": {
+      "subType": "site",
+      "name": "Mundo",
+      "uri": "/mundo",
+      "type": "simple"
+    },
+    "groups": []
+  }
+}

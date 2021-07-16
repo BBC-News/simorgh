@@ -181,9 +181,9 @@ exports[`SocialEmbedContainer AMP should render correctly 1`] = `
       >
         <a
           class="emotion-6 emotion-7"
-          href="#skip-twitter-content-1384138850478346243"
+          href="#end-of-twitter-content-1"
         >
-          Skip Twitter content, 1384138850478346243
+          Skip Twitter content, 1
         </a>
         <amp-twitter
           data-tweetid="1384138850478346243"
@@ -193,10 +193,10 @@ exports[`SocialEmbedContainer AMP should render correctly 1`] = `
         />
         <p
           class="emotion-8 emotion-9"
-          id="skip-twitter-content-1384138850478346243"
+          id="end-of-twitter-content-1"
           tabindex="-1"
         >
-          End of Twitter content, 1384138850478346243
+          End of Twitter content, 1
         </p>
       </div>
     </div>
@@ -400,9 +400,9 @@ exports[`SocialEmbedContainer Canonical should render and unmount correctly 1`] 
     >
       <a
         class="emotion-6 emotion-7"
-        href="#skip-twitter-content-1384138850478346243"
+        href="#end-of-twitter-content-1"
       >
-        Skip Twitter content, 1384138850478346243
+        Skip Twitter content, 1
       </a>
       <div
         class="emotion-8 emotion-9"
@@ -433,10 +433,10 @@ exports[`SocialEmbedContainer Canonical should render and unmount correctly 1`] 
       </div>
       <p
         class="emotion-10 emotion-11"
-        id="skip-twitter-content-1384138850478346243"
+        id="end-of-twitter-content-1"
         tabindex="-1"
       >
-        End of Twitter content, 1384138850478346243
+        End of Twitter content, 1
       </p>
     </div>
   </div>

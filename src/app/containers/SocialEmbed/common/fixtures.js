@@ -17,6 +17,7 @@ export const cpsTwitterBlock = {
     id: '1237210910835392512',
     embed: {
       oembed: {
+        indexOfType: 1,
         url: 'https://twitter.com/MileyCyrus/status/1237210910835392512',
         author_name: 'Miley Ray Cyrus',
         author_url: 'https://twitter.com/MileyCyrus',
@@ -43,31 +44,39 @@ export const cpsTwitterBlock = {
 };
 
 export const twitterBlock = {
-  source: 'https://twitter.com/BBCNews/status/1384138850478346243?s=20',
-  blocks: [
-    {
-      type: 'renditions',
-      model: {
-        locator: 'urn:bbc:optimo:social:2777c9b9-b3d3-4d53-b36c-be749aa528c9',
-        blocks: [
-          {
-            type: 'aresOEmbed',
-            model: {
-              oembed: {
-                version: '1.0',
-                author_name: 'BBC News (UK)',
-                author_url: 'https://twitter.com/BBCNews',
-                provider_name: 'Twitter',
-                provider_url: 'https://twitter.com',
-                url: 'https://twitter.com/BBCNews/status/1384138850478346243',
-                html:
-                  '<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Greta Thunberg says meeting fellow climate campaigner Sir David Attenborough was &quot;indescribable&quot; <a href="https://t.co/xz93WmAdfR">https://t.co/xz93WmAdfR</a></p>&mdash; BBC News (UK) (@BBCNews) <a href="https://twitter.com/BBCNews/status/1384138850478346243?ref_src=twsrc%5Etfw">April 19, 2021</a></blockquote>\n',
-                width: 550,
-              },
-            },
+  type: 'renditions',
+  model: {
+    locator: 'urn:bbc:optimo:social:2777c9b9-b3d3-4d53-b36c-be749aa528c9',
+    blocks: [
+      {
+        type: 'aresOEmbed',
+        model: {
+          oembed: {
+            indexOfType: 0,
+            version: '1.0',
+            author_name: 'BBC News (UK)',
+            author_url: 'https://twitter.com/BBCNews',
+            provider_name: 'Twitter',
+            provider_url: 'https://twitter.com',
+            url: 'https://twitter.com/BBCNews/status/1384138850478346243',
+            html:
+              '<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Greta Thunberg says meeting fellow climate campaigner Sir David Attenborough was &quot;indescribable&quot; <a href="https://t.co/xz93WmAdfR">https://t.co/xz93WmAdfR</a></p>&mdash; BBC News (UK) (@BBCNews) <a href="https://twitter.com/BBCNews/status/1384138850478346243?ref_src=twsrc%5Etfw">April 19, 2021</a></blockquote>\n',
+            width: 550,
           },
-        ],
+        },
       },
-    },
-  ],
+    ],
+  },
+};
+
+export const twitterBlockNoEmbed = {
+  type: 'renditions',
+  model: {
+    locator: 'urn:bbc:optimo:social:2777c9b9-b3d3-4d53-b36c-be749aa528c9',
+    blocks: [
+      {
+        type: 'aresOEmbed',
+      },
+    ],
+  },
 };

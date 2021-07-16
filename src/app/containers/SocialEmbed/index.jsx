@@ -31,14 +31,13 @@ const SocialEmbedContainer = ({ blocks, source }) => {
 
   const { model } = blocks[0];
   const oEmbed = path(['blocks', 0, 'model', 'oembed'], model);
-
-  const index = id;
+  const oEmbedPosition = path(['indexOfType'], oEmbed) + 1;
 
   const {
     fallback: fallbackTranslations,
     skipLink: skipLinkTranslations,
     caption: captionTranslations,
-  } = createTranslations({ translations, index });
+  } = createTranslations({ translations, index: oEmbedPosition });
 
   const fallback = {
     ...fallbackTranslations,
@@ -47,7 +46,7 @@ const SocialEmbedContainer = ({ blocks, source }) => {
 
   const skipLink = {
     ...skipLinkTranslations,
-    endTextId: `skip-%provider%-content-${index}`,
+    endTextId: `end-of-%provider%-content-${oEmbedPosition}`,
   };
 
   const caption = provider === 'youtube' ? captionTranslations : null;

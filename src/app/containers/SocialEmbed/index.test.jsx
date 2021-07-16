@@ -25,7 +25,10 @@ describe('SocialEmbedContainer', () => {
         withContexts(SocialEmbedContainer, {
           isAmp: false,
           isEnabled: true,
-        })(twitterBlock),
+        })({
+          blocks: [twitterBlock],
+          source: 'https://twitter.com/BBCNews/status/1384138850478346243?s=20',
+        }),
       );
       expect(container.firstChild).toMatchSnapshot();
       expect(
@@ -51,7 +54,10 @@ describe('SocialEmbedContainer', () => {
         withContexts(SocialEmbedContainer, {
           isAmp: false,
           isEnabled: false,
-        })(twitterBlock),
+        })({
+          blocks: [twitterBlock],
+          source: 'https://twitter.com/BBCNews/status/1384138850478346243?s=20',
+        }),
       );
       expect(container.firstChild).toBeNull();
       expect(loggerMock.info).not.toHaveBeenCalled();
@@ -64,7 +70,10 @@ describe('SocialEmbedContainer', () => {
       withContexts(SocialEmbedContainer, {
         isAmp: true,
         isEnabled: true,
-      })(twitterBlock),
+      })({
+        blocks: [twitterBlock],
+        source: 'https://twitter.com/BBCNews/status/1384138850478346243?s=20',
+      }),
     );
   });
 });
