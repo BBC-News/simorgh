@@ -1,0 +1,148 @@
+{
+    "metadata":{
+       "id":"urn:bbc:ares::asset:naidheachdan/57747079",
+       "locators":{
+          "assetUri":"/naidheachdan/57747079",
+          "cpsUrn":"urn:bbc:content:assetUri:naidheachdan/57747079",
+          "curie":"http://www.bbc.co.uk/asset/c93188d8-4ed6-4f1f-9daf-cc345bd43bac",
+          "assetId":"57747079"
+       },
+       "type":"STY",
+       "createdBy":"naidheachdan-v6",
+       "language":"gd",
+       "lastUpdated":1625645074545,
+       "firstPublished":1625645067000,
+       "lastPublished":1625645067000,
+       "timestamp":1625645067000,
+       "options":{
+          "isIgorSeoTagsEnabled":false,
+          "includeComments":false,
+          "allowRightHandSide":true,
+          "isFactCheck":false,
+          "allowDateStamp":true,
+          "suitableForSyndication":true,
+          "hasNewsTracker":false,
+          "allowRelatedStoriesBox":true,
+          "isKeyContent":false,
+          "allowHeadline":true,
+          "allowAdvertising":true,
+          "hasContentWarning":false,
+          "isBreakingNews":false,
+          "allowPrintingSharingLinks":true
+       },
+       "analyticsLabels":{
+          "cps_asset_type":"sty",
+          "counterName":"naidheachdan.story.57747079.page",
+          "cps_asset_id":"57747079"
+       },
+       "tags":{
+          
+       },
+       "version":"v1.3.13",
+       "blockTypes":[
+          "image",
+          "paragraph"
+       ],
+       "includeComments":false,
+       "atiAnalytics":{
+          "producerName":"SCOTLAND",
+          "producerId":"79"
+       },
+       "readTime":1,
+       "siteUri":"/naidheachdan"
+    },
+    "content":{
+       "blocks":[
+          {
+             "id":"119295218",
+             "subType":"body",
+             "href":"http://c.files.bbci.co.uk/13D6B/production/_119295218_seilebostluskentyrebeachharris.jpg",
+             "path":"/cpsprodpb/13D6B/production/_119295218_seilebostluskentyrebeachharris.jpg",
+             "height":549,
+             "width":976,
+             "altText":"Na Hearadh",
+             "copyrightHolder":"BBC",
+             "positionHint":"full-width",
+             "originCode":"cpsprodpb",
+             "type":"image"
+          },
+          {
+             "text":"Chaidh oifigear ùr fhastadh le Bòrd na Gàidhlig agus Fearann Coimhearsnachd na h-Alba.  ",
+             "role":"introduction",
+             "markupType":"plain_text",
+             "type":"paragraph"
+          },
+          {
+             "text":"'S i Criosaidh NicGillÌosa à Ratharsair a tha gu bhith ag obair cuide ri Fearann Coimhearsnachd na h-Alba gus leasachadh a dhèanamh air a' Ghàidhlig taobh a-staigh na buidhne agus le buidhnean eile.",
+             "markupType":"plain_text",
+             "type":"paragraph"
+          },
+          {
+             "text":"Thuirt i: &quot;Bidh mi ag obair còmhla ri diofar bhuidhnean anns na h-eileanan a-mhàin.",
+             "markupType":"plain_text",
+             "type":"paragraph"
+          },
+          {
+             "text":"&quot;Bu toil leam a bhith ag obair le buidhnean aig a bheil ùidh ann an Gàidhlig agus cleachdadh na Gàidhlig - 's e sin am prìomhachas.",
+             "markupType":"plain_text",
+             "type":"paragraph"
+          },
+          {
+             "text":"&quot;Bidh mi fhìn ann airson taic a thoirt dha na diofar bhuidhnean agus faodaidh iad dìreach fònadh thugam agus faodaidh mi bruidhinn mu chothroman agus 's dòcha beachdan a th' aig diofar dhaoine.",
+             "markupType":"plain_text",
+             "type":"paragraph"
+          },
+          {
+             "text":"&quot;Faodaidh sinn dèanamh cinnteach gu bheil iarrtasan làidir, ciallach againn aig deireadh an là&quot;, thuirt i.",
+             "markupType":"plain_text",
+             "type":"paragraph"
+          }
+       ]
+    },
+    "promo":{
+       "headlines":{
+          "shortHeadline":"Oifigear Gàidhlig ùr",
+          "headline":"Oifigear Gàidhlig ùr"
+       },
+       "locators":{
+          "assetUri":"/naidheachdan/57747079",
+          "cpsUrn":"urn:bbc:content:assetUri:naidheachdan/57747079",
+          "curie":"http://www.bbc.co.uk/asset/c93188d8-4ed6-4f1f-9daf-cc345bd43bac",
+          "assetId":"57747079"
+       },
+       "summary":"Chaidh oifigear ùr fhastadh le Bòrd na Gàidhlig agus Fearann Coimhearsnachd na h-Alba",
+       "timestamp":1625645067000,
+       "language":"gd",
+       "indexImage":{
+          "id":"111249225",
+          "subType":"index",
+          "href":"http://c.files.bbci.co.uk/CC46/production/_111249225_seilebostluskentyrebeachharris.jpg",
+          "path":"/cpsprodpb/CC46/production/_111249225_seilebostluskentyrebeachharris.jpg",
+          "height":1152,
+          "width":2048,
+          "altText":"Na Hearadh",
+          "copyrightHolder":"BBC",
+          "originCode":"cpsprodpb",
+          "type":"image"
+       },
+       "id":"urn:bbc:ares::asset:naidheachdan/57747079",
+       "type":"cps"
+    },
+    "relatedContent":{
+       "section":{
+          "subType":"index",
+          "name":"Dachaigh",
+          "uri":"/naidheachdan/dachaigh",
+          "type":"simple"
+       },
+       "site":{
+          "subType":"site",
+          "name":"Naidheachdan",
+          "uri":"/naidheachdan",
+          "type":"simple"
+       },
+       "groups":[
+          
+       ]
+    }
+ }

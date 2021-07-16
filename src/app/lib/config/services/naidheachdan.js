@@ -228,6 +228,8 @@ export const service = {
         nextRadioShow: 'Next radio show',
         duration: 'Duration',
       },
+      topStoriesTitle: 'Prìomh Sgeulachdan',
+      featuresAnalysisTitle: 'Sgeulachdan Aithriseach',
     },
     brandSVG,
     mostRead: {
