@@ -240,7 +240,7 @@
     "wait-on": "5.3.0",
     "webpack": "4.46.0",
     "webpack-bundle-analyzer": "4.4.2",
-    "webpack-cli": "3.3.12",
+    "webpack-cli": "4.7.2",
     "webpack-dev-server": "3.11.2",
     "webpack-merge": "5.8.0",
     "webpack-node-externals": "2.5.2",
