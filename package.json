@@ -232,7 +232,7 @@
     "start-server-webpack-plugin": "2.2.5",
     "strip-ansi": "6.0.0",
     "stylelint": "13.13.1",
-    "stylelint-config-recommended": "3.0.0",
+    "stylelint-config-recommended": "5.0.0",
     "supertest": "6.1.3",
     "swagger-cli": "4.0.4",
     "terser-webpack-plugin": "4.2.3",
